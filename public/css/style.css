@@ -1,0 +1,18 @@
+:root{--bg:#0f1720;--card:#111827;--accent:#06b6d4;--muted:#94a3b8}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Arial;background:linear-gradient(180deg,var(--bg),#071126);color:#e6eef8;margin:0;padding:20px}
+header{margin-bottom:18px;text-align:center}
+.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.card{background:rgba(255,255,255,0.03);padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+.chat{height:200px;overflow:auto;background:#071425;padding:8px;border-radius:6px;margin-bottom:8px}
+.msg{padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.02)}
+form{display:flex;gap:8px}
+input{flex:1;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit}
+button{background:var(--accent);border:none;padding:8px 12px;border-radius:6px;color:#04202b;cursor:pointer}
+.results{list-style:none;padding:0;margin:8px 0}
+.results li{display:flex;gap:8px;align-items:center;padding:8px;border-radius:6px}
+.results img{width:120px;height:68px;object-fit:cover;border-radius:6px}
+.prod{display:flex;flex-direction:column}
+.price{color:#7ee3d6;font-weight:700;margin-top:6px}
+footer{text-align:center;margin-top:14px;color:var(--muted)}
